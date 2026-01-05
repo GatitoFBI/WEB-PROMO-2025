@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:photo_view/photo_view.dart';
@@ -169,11 +168,10 @@ class GaleriaView extends StatelessWidget {
                     onTap: () => _openFullScreen(context, index),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12),
-                      child: CachedNetworkImage(
-                        imageUrl: url,
-                        placeholder: (context, url) => const Center(child: CircularProgressIndicator()),
-                        errorWidget: (context, url, error) => const Icon(Icons.error),
+                      child: Image.asset(
+                        url,
                         fit: BoxFit.cover,
+                        errorBuilder: (_, __, ___) => const Icon(Icons.error, color: Colors.red),
                       ),
                     ),
                   );
@@ -214,7 +212,7 @@ class FullScreenGallery extends StatelessWidget {
         itemCount: imageUrls.length,
         builder: (context, index) {
           return PhotoViewGalleryPageOptions(
-            imageProvider: CachedNetworkImageProvider(imageUrls[index]),
+            imageProvider: AssetImage(imageUrls[index]),
             minScale: PhotoViewComputedScale.contained,
             maxScale: PhotoViewComputedScale.covered * 2.0,
           );

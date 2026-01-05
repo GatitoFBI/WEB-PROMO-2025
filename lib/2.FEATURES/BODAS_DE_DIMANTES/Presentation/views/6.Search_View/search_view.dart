@@ -25,31 +25,27 @@ class _SearchViewState extends State<SearchView> {
   void actualizarBusqueda(String texto) {
     setState(() {
       query = texto.toLowerCase();
-      estudiantesFiltrados =
-          generalEstudiantesLocalDataSource.where((e) => e.nombreCompleto.toLowerCase().contains(query)).toList();
+      estudiantesFiltrados = generalEstudiantesLocalDataSource
+          .where((e) => e.nombreCompleto.toLowerCase().contains(query))
+          .toList();
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff101510),
       body: SafeArea(
         child: Column(
           children: [
             //*~~~~~BARRA DE NAVEGACIÓN~~~~~.
-            const BarraDeNavegacion(
-              rutaActual: "Search",
-            ),
+            const BarraDeNavegacion(rutaActual: "Search"),
 
             const Padding(
               padding: EdgeInsets.all(16),
               child: Text(
                 "Buscar estudiantes",
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.greenAccent,
-                ),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.greenAccent),
               ),
             ),
 
@@ -63,10 +59,7 @@ class _SearchViewState extends State<SearchView> {
                   filled: true,
                   fillColor: Colors.white,
                   contentPadding: const EdgeInsets.symmetric(vertical: 8),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                    borderSide: BorderSide.none,
-                  ),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide.none),
                 ),
               ),
             ),
@@ -75,11 +68,7 @@ class _SearchViewState extends State<SearchView> {
 
             // Widget modularizado
             Expanded(
-              child: SingleChildScrollView(
-                child: RenderizadoListasWidget(
-                  listaEstudiantes: estudiantesFiltrados,
-                ),
-              ),
+              child: SingleChildScrollView(child: RenderizadoListasWidget(listaEstudiantes: estudiantesFiltrados)),
             ),
           ],
         ),
