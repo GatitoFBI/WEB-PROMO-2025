@@ -13,14 +13,13 @@ class EstudiantesView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff101510),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
             //*~~~~~BARRA DE NAVEGACIÓN~~~~~.
-            const BarraDeNavegacion(
-              rutaActual: "Alumnos",
-            ),
+            const BarraDeNavegacion(rutaActual: "Alumnos"),
 
             //*~~~~~TÍTULO WEB~~~~~.
             const Padding(
@@ -44,17 +43,12 @@ class EstudiantesView extends StatelessWidget {
                 height: 340,
                 margin: const EdgeInsets.only(bottom: 20),
                 decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage(fotoPromocionalUrl),
-                    fit: BoxFit.cover,
-                  ),
+                  image: DecorationImage(image: AssetImage(fotoPromocionalUrl), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
               onTap: () {
-                YoutubeLauncher.open(
-                  'https://www.youtube.com/watch?v=FjtQUCS1now',
-                );
+                YoutubeLauncher.open('https://www.youtube.com/watch?v=zX91vEzw6wc');
               },
             ),
 
@@ -64,26 +58,11 @@ class EstudiantesView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “A”',
-                    estudiantes: estudiantesSeccionA,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “B”',
-                    estudiantes: estudiantesSeccionB,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “C”',
-                    estudiantes: estudiantesSeccionC,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “D”',
-                    estudiantes: estudiantesSeccionD,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “E”',
-                    estudiantes: estudiantesSeccionE,
-                  ),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “A”', estudiantes: estudiantesSeccionA),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “B”', estudiantes: estudiantesSeccionB),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “C”', estudiantes: estudiantesSeccionC),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “D”', estudiantes: estudiantesSeccionD),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “E”', estudiantes: estudiantesSeccionE),
                 ],
               ),
             ),

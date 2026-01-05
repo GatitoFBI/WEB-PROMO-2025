@@ -11,14 +11,13 @@ class ColaboradoresView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff101510),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
             //*~~~~~BARRA DE NAVEGACIÓN~~~~~.
-            const BarraDeNavegacion(
-              rutaActual: "Colaboradores",
-            ),
+            const BarraDeNavegacion(rutaActual: "Colaboradores"),
 
             //*~~~~~TÍTULO WEB~~~~~.
             const Padding(

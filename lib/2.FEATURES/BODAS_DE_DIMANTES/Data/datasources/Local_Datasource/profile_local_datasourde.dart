@@ -387,7 +387,7 @@ final estudiantesSeccionC = [
       "Logar ganar la alcaldia del municipio escolar 2025",
       "Estar entre el tercio superior",
       "Haber sido parte del CCONNA 2023-2025 tanto en la etapa provincial",
-      "Y sobre todo aún estar de pie 💪(la chamba de la alcaldia no se lo deseo a nadie)"
+      "Y sobre todo aún estar de pie 💪(la chamba de la alcaldia no se lo deseo a nadie)",
     ],
     anecdotaInolvidable: "",
     cumpleanos: "2/9/2025",
@@ -429,7 +429,7 @@ final estudiantesSeccionC = [
     mensajeFuturo:
         "Nunca olvides lo mucho que soñabas ser un empresario,para que ayudes a tus padres,sigue esforzándote",
     logrosAcademicos: [
-      "Primer puesto en la disciplina deportiva de futbol:varones categoría B(sub 14),en la etapa ugel de los juegos escolares deportivos y paradeportivos 2023"
+      "Primer puesto en la disciplina deportiva de futbol:varones categoría B(sub 14),en la etapa ugel de los juegos escolares deportivos y paradeportivos 2023",
     ],
     anecdotaInolvidable: "17/2/2009",
     cumpleanos: "",
@@ -490,7 +490,7 @@ final estudiantesSeccionC = [
     mensajeFuturo:
         "Creer en ti es el primer paso para el éxito porque cada día es una oportunidad para mejorar y crecer ",
     logrosAcademicos: [
-      "Diploma de reconocimiento 1er conversatorio estudiantil de la red-2021 (Las escuelas del ayer, del hoy y del mañana) Nivel secundaria "
+      "Diploma de reconocimiento 1er conversatorio estudiantil de la red-2021 (Las escuelas del ayer, del hoy y del mañana) Nivel secundaria ",
     ],
     anecdotaInolvidable: "",
     cumpleanos: "8/9/2008",
@@ -514,7 +514,7 @@ final estudiantesSeccionC = [
     mensajeFuturo:
         "Nunca olvides lo fuerte, optimista y resiliente que fuiste en tu secundaria; nunca te apagues, sigue con tu chispa de ser alegre y una gran persona, Cielito",
     logrosAcademicos: [
-      "2do puesto en concurso de oratoria en mi I.E, Ganadora junto a mi equipo en la Etapa Provincial en la Feria de ciencias 2023 Plaforma Einstein, 2024 Sil Adventure Guide  2025, rumbo a la Etapa Regional Tecnología y turismo al servicio del patrimonio SILFY, Representar a mi I.E en debates, en la UGEL como líder 2023, en Danzas Folclóricas en Bambamarca y alrededor de San Ignacio, representar en reuniones de las Hnas. San José de Tarbes, ser miembro de OPETSY 2025, Delegada de aula, ser una estudiante con 1ros puestos en toda mi secundaria, 1er puesto en primero de secundaria, etc."
+      "2do puesto en concurso de oratoria en mi I.E, Ganadora junto a mi equipo en la Etapa Provincial en la Feria de ciencias 2023 Plaforma Einstein, 2024 Sil Adventure Guide  2025, rumbo a la Etapa Regional Tecnología y turismo al servicio del patrimonio SILFY, Representar a mi I.E en debates, en la UGEL como líder 2023, en Danzas Folclóricas en Bambamarca y alrededor de San Ignacio, representar en reuniones de las Hnas. San José de Tarbes, ser miembro de OPETSY 2025, Delegada de aula, ser una estudiante con 1ros puestos en toda mi secundaria, 1er puesto en primero de secundaria, etc.",
     ],
     anecdotaInolvidable:
         "Regresar de Pandemia (COVID-19) y todos asustarnos por ver nuestras caras sin mascarillas en 2do de secundaria (2022)",
@@ -537,12 +537,12 @@ final estudiantesSeccionD = [
     mejorAmigo: "Jose manuel chacón nuñez, un amigo que pase lo que pase estará ahí",
     profesorFavorito: "El Profesor Jhon de EPT, excelente profesor y persona",
     hobbyFavorito:
-        "En mis tiempos libres me gusta aprender nuevas habilidades, desarrollar proyectos de software, aprender sobre ciberseguridad y hacking ético, aprender idiomas y desarrollando proyectos de tecnología que ayuden a la sociedad, el futuro esta en la quimica, software y harware",
+        "En mis tiempos libres me gusta aprender nuevas habilidades, desarrollar proyectos de software, aprender sobre ciberseguridad y hacking ético, aprender idiomas y desarrollando proyectos de tecnología que ayuden a la sociedad, el futuro esta en la quimica, software y hardware ",
     cursoFavorito: "EPT y CCSS",
     virtudes: ["Perseverante", "Responsable", "Diciplinado"],
     grupos: ["Club de Ecoturismo", "Club CATATEC", "Club de Ciencias"],
     mensajeFuturo:
-        "VAS A COMERTER MUCHOS MAS ERRORES, LA CLAVE ES APRENDER DE ELLOS Y SEGUIR ADELANTE, Hoy en día todo se puede aprender por internet, no hay escusas, estudien y hagan proyectos que puedan mejorar nuestra sociedad",
+        "VAS A COMETER MUCHOS MÁS ERRORES, Y ESTÁ BIEN. LA CLAVE NO ES EVITARLOS, SINO APRENDER RÁPIDO DE ELLOS Y SEGUIR AVANZANDO. HOY, EL CONOCIMIENTO ESTÁ A UN CLIC: TODO SE PUEDE APRENDER EN INTERNET. NO HAY EXCUSAS. ESTUDIA, CREA Y CONSTRUYE PROYECTOS QUE REALMENTE MEJOREN NUESTRA SOCIEDAD.",
     logrosAcademicos: [
       "Primer puesto en EUREKA 2023 etapa I.E con el proyecto “PLATAFORMA ESTUDIANTIL EINSTEIN”",
       "Segundo puesto en EUREKA 2023 etapa UGEL con el proyecto “PLATAFORMA ESTUDIANTIL EINSTEIN”",
@@ -791,7 +791,7 @@ final estudiantesSeccionD = [
       "Primer puesto en atletismo categoría C – Salto largo, etapa REGIONAL 2025",
       "Tercer puesto en atletismo categoría C – Postas 4×100, etapa REGIONAL 2025",
       "Quinto puesto en atletismo categoría C – Salto largo, etapa MACRO REGIONAL 2025",
-      "Segundo puesto en vóley categoría B – etapa UGEL 2022"
+      "Segundo puesto en vóley categoría B – etapa UGEL 2022",
     ],
     anecdotaInolvidable:
         "Cuando mi aula ganó las olimpiadas internas de futbol y voley en el aniversario de la I.E, el premio se quedó en el aula, hubieron algunos percances pero nos unió más como aula, disfrutamos al máximo esos momentos, los chicos nos apoyaban en voley y nosotras a ellos en fútbol, gritábamos todos diciendo VAMOS 5TOD la emoción se vivía al máximo, éramos el aula a la que menos fe le tenían pero aun así ganamos. Fue algo que nos hizo más unidos.",
@@ -904,7 +904,7 @@ final estudiantesSeccionD = [
       "Arquero con 0 goles recibidos a lo largo de la historia de las olimpiadas tcy ;v",
       "Promotor Ambiental Ecoturismo.",
       "Campeón Copa SIL 2021",
-      " si logramos pasar, primer o segundo puesto etapa ugel cye crea y emprende 2025JAJJAAetc etc etc etc rtc"
+      " si logramos pasar, primer o segundo puesto etapa ugel cye crea y emprende 2025JAJJAAetc etc etc etc rtc",
     ],
     anecdotaInolvidable:
         "El hecho de coronar en diversas actividades académicas, como ferias, deporte, actividades escolares, como cuando ganamos las olimpiadas 2025 como bodas de diamante en futbol y voley, cuando logramos llegar a la etapa nacional en Arequipa Eureka 2023, y compartir lindos recuerdos con nuestro salón, lo cual siempre será algo inolvidable",
@@ -1092,7 +1092,7 @@ final estudiantesSeccionE = [
     grupos: [""],
     mensajeFuturo: "Nunca olvides la segunda oportunidad que la vida te dio y sigue adelante.",
     logrosAcademicos: [
-      "Primer puesto en concurso de matemática y Ganadora etapa IE (tres años consecutivos) y etapa UGEL (2024) de la ONEM."
+      "Primer puesto en concurso de matemática y Ganadora etapa IE (tres años consecutivos) y etapa UGEL (2024) de la ONEM.",
     ],
     anecdotaInolvidable: "Cuando hicimos una salida a la piscina con las familias del salón.",
     cumpleanos: "29/4/2008",
@@ -1331,7 +1331,7 @@ final estudiantesSeccionE = [
     mensajeFuturo:
         " Recuerda que una derrota no definirá el final de tu vida mientras aún tengas vida sigue intentando alcanzar tus sueños por más difícil que sea , no somos cobardes y tampoco nos rendimos , cometiste errores en el pasado pero ahora es el momento de solucionar todo eso y demostrar a todo que puedes ser mejor de lo que ellos creían , eres increíble",
     logrosAcademicos: [
-      "Hasta ahora no he tenido ninguno de esos logros , reciente el 15 de septiembre 2025 ganamos un concurso de danzas representando a la institución, quedamos en primer lugar asique este vendría a ser mi primer logro grupal "
+      "Hasta ahora no he tenido ninguno de esos logros , reciente el 15 de septiembre 2025 ganamos un concurso de danzas representando a la institución, quedamos en primer lugar asique este vendría a ser mi primer logro grupal ",
     ],
     anecdotaInolvidable:
         "El 15 de septiembre de 2025 gane mi primer concurso de danzas quedando en primer puesto y poniendo en alto el nombre d ella institucion junto a otros compañeros, esque logro sería uno de los más especiales ya que lo viví Serca a las personas que más quiero y pude estar junto a mi mejor amigo en ese momento ya que nos gusta a ambos la danza ",
@@ -1374,7 +1374,7 @@ final estudiantesSeccionE = [
     grupos: ["Club de ecoturismo, club de comunicadores, club de danza "],
     mensajeFuturo: "Recuerda siempre tu esfuerzo , nunca te rindas hasta que logres tus objetivos en la vida.",
     logrosAcademicos: [
-      "Segundo puesto en el concurso de matemática, ganadores en etapa institucional de la feria de ciencia ,estar dentro de los tres primeros puestos "
+      "Segundo puesto en el concurso de matemática, ganadores en etapa institucional de la feria de ciencia ,estar dentro de los tres primeros puestos ",
     ],
     anecdotaInolvidable: "",
     cumpleanos: "9/2/2009",
@@ -1417,7 +1417,7 @@ final estudiantesSeccionE = [
     mensajeFuturo:
         "Dios y tu familia son tu fuerza, no dejes que ningún obstáculo apague los sueños que construyen tu futuro.",
     logrosAcademicos: [
-      "Representamos a la provincia de San Ignacio en las Olimpiadas 2024 con el equipo de fútbol femenino. Además, ganamos durante tres años consecutivos los gallardetes en los concursos de marcha."
+      "Representamos a la provincia de San Ignacio en las Olimpiadas 2024 con el equipo de fútbol femenino. Además, ganamos durante tres años consecutivos los gallardetes en los concursos de marcha.",
     ],
     anecdotaInolvidable:
         "Cuando viajamos a Cajamarca por las Olimpiadas 2024, pude volver a ver lo hermosa que es la ciudad y los lugares que recorrí cuando era niña.",
@@ -1747,7 +1747,7 @@ final profesoresBodasDeDiamantes = [
       "Primer puesto en atletismo categoría C – Salto largo, etapa REGIONAL 2025",
       "Tercer puesto en atletismo categoría C – Postas 4×100, etapa REGIONAL 2025",
       "Quinto puesto en atletismo categoría C – Salto largo, etapa MACRO REGIONAL 2025",
-      "Segundo puesto en vóley categoría B – etapa UGEL 2022"
+      "Segundo puesto en vóley categoría B – etapa UGEL 2022",
     ],
     anecdotaInolvidable:
         "Cuando mi aula ganó las olimpiadas internas de futbol y voley en el aniversario de la I.E, el premio se quedó en el aula, hubieron algunos percances pero nos unió más como aula, disfrutamos al máximo esos momentos, los chicos nos apoyaban en voley y nosotras a ellos en fútbol, gritábamos todos diciendo VAMOS 5TOD la emoción se vivía al máximo, éramos el aula a la que menos fe le tenían pero aun así ganamos. Fue algo que nos hizo más unidos.",
@@ -1792,7 +1792,7 @@ final profesoresBodasDeDiamantes = [
     grupos: ["Club de ecoturismo, club de comunicadores, club de danza "],
     mensajeFuturo: "Recuerda siempre tu esfuerzo , nunca te rindas hasta que logres tus objetivos en la vida.",
     logrosAcademicos: [
-      "Segundo puesto en el concurso de matemática, ganadores en etapa institucional de la feria de ciencia ,estar dentro de los tres primeros puestos "
+      "Segundo puesto en el concurso de matemática, ganadores en etapa institucional de la feria de ciencia ,estar dentro de los tres primeros puestos ",
     ],
     anecdotaInolvidable: "",
     cumpleanos: "9/2/2009",
@@ -1816,7 +1816,7 @@ final profesoresBodasDeDiamantes = [
     mensajeFuturo:
         "Nunca olvides lo fuerte, optimista y resiliente que fuiste en tu secundaria; nunca te apagues, sigue con tu chispa de ser alegre y una gran persona, Cielito",
     logrosAcademicos: [
-      "2do puesto en concurso de oratoria en mi I.E, Ganadora junto a mi equipo en la Etapa Provincial en la Feria de ciencias 2023 Plaforma Einstein, 2024 Sil Adventure Guide  2025, rumbo a la Etapa Regional Tecnología y turismo al servicio del patrimonio SILFY, Representar a mi I.E en debates, en la UGEL como líder 2023, en Danzas Folclóricas en Bambamarca y alrededor de San Ignacio, representar en reuniones de las Hnas. San José de Tarbes, ser miembro de OPETSY 2025, Delegada de aula, ser una estudiante con 1ros puestos en toda mi secundaria, 1er puesto en primero de secundaria, etc."
+      "2do puesto en concurso de oratoria en mi I.E, Ganadora junto a mi equipo en la Etapa Provincial en la Feria de ciencias 2023 Plaforma Einstein, 2024 Sil Adventure Guide  2025, rumbo a la Etapa Regional Tecnología y turismo al servicio del patrimonio SILFY, Representar a mi I.E en debates, en la UGEL como líder 2023, en Danzas Folclóricas en Bambamarca y alrededor de San Ignacio, representar en reuniones de las Hnas. San José de Tarbes, ser miembro de OPETSY 2025, Delegada de aula, ser una estudiante con 1ros puestos en toda mi secundaria, 1er puesto en primero de secundaria, etc.",
     ],
     anecdotaInolvidable:
         "Regresar de Pandemia (COVID-19) y todos asustarnos por ver nuestras caras sin mascarillas en 2do de secundaria (2022)",

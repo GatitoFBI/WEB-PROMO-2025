@@ -16,14 +16,13 @@ class InicioView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff101510),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
             //*~~~~~BARRA DE NAVEGACIÓN~~~~~.
-            const BarraDeNavegacion(
-              rutaActual: "Inicio",
-            ),
+            const BarraDeNavegacion(rutaActual: "Inicio"),
 
             //*~~~~~TÍTULO WEB~~~~~.
             const Padding(
@@ -47,24 +46,13 @@ class InicioView extends StatelessWidget {
                 height: 340,
                 margin: const EdgeInsets.only(bottom: 20),
                 decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage(fotoPromocionalUrl),
-                    fit: BoxFit.cover,
-                  ),
+                  image: DecorationImage(image: AssetImage(fotoPromocionalUrl), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Center(
-                  child: Icon(
-                    Icons.play_circle_fill,
-                    color: Colors.white.withOpacity(0.9),
-                    size: 64,
-                  ),
-                ),
+                child: Center(child: Icon(Icons.play_circle_fill, color: Colors.white.withOpacity(0.9), size: 64)),
               ),
               onTap: () {
-                YoutubeLauncher.open(
-                  'https://www.youtube.com/watch?v=FjtQUCS1now',
-                );
+                YoutubeLauncher.open('https://www.youtube.com/watch?v=zX91vEzw6wc');
               },
             ),
 
@@ -92,26 +80,11 @@ class InicioView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “A”',
-                    estudiantes: estudiantesSeccionA,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “B”',
-                    estudiantes: estudiantesSeccionB,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “C”',
-                    estudiantes: estudiantesSeccionC,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “D”',
-                    estudiantes: estudiantesSeccionD,
-                  ),
-                  SeccionEstudiantesWidget(
-                    titulo: 'Quinto Grado “E”',
-                    estudiantes: estudiantesSeccionE,
-                  ),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “A”', estudiantes: estudiantesSeccionA),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “B”', estudiantes: estudiantesSeccionB),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “C”', estudiantes: estudiantesSeccionC),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “D”', estudiantes: estudiantesSeccionD),
+                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “E”', estudiantes: estudiantesSeccionE),
                 ],
               ),
             ),
@@ -136,20 +109,13 @@ class InicioView extends StatelessWidget {
                 height: 340,
                 margin: const EdgeInsets.only(bottom: 20),
                 decoration: BoxDecoration(
-                  image: const DecorationImage(
-                    image: AssetImage("assets/images/939A4628.jpg"),
-                    fit: BoxFit.cover,
-                  ),
+                  image: const DecorationImage(image: AssetImage("assets/images/939A4628.jpg"), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Center(
                   child: Text(
                     "¡Ver Galeria General!",
-                    style: TextStyle(
-                      color: Colors.white.withOpacity(0.9),
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(color: Colors.white.withOpacity(0.9), fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
