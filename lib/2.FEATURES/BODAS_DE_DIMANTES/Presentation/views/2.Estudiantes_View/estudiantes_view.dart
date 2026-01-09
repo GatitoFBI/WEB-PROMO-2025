@@ -58,11 +58,36 @@ class EstudiantesView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “A”', estudiantes: estudiantesSeccionA),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “B”', estudiantes: estudiantesSeccionB),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “C”', estudiantes: estudiantesSeccionC),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “D”', estudiantes: estudiantesSeccionD),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “E”', estudiantes: estudiantesSeccionE),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “A”',
+                    estudiantes: estudiantesSeccionA,
+                    imageAsset: "assets/images/5toa.png",
+                    nombres: listNombresQuintoA,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “B”',
+                    estudiantes: estudiantesSeccionB,
+                    imageAsset: "assets/images/5tob.png",
+                    nombres: listNombresQuintoB,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “C”',
+                    estudiantes: estudiantesSeccionC,
+                    imageAsset: "assets/images/5toc.png",
+                    nombres: listNombresQuintoC,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “D”',
+                    estudiantes: estudiantesSeccionD,
+                    imageAsset: "assets/images/5tod.png",
+                    nombres: listNombresQuintoD,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “E”',
+                    estudiantes: estudiantesSeccionE,
+                    imageAsset: "assets/images/5toe.png",
+                    nombres: listNombresQuintoE,
+                  ),
                 ],
               ),
             ),

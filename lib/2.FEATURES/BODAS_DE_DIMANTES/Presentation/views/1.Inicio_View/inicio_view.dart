@@ -9,7 +9,7 @@ import '../4.Galeria_View.dart/galeria_view.dart';
 import 'components/title_inicio_component.dart';
 
 class InicioView extends StatelessWidget {
-  final fotoPromocionalUrl = "assets/images/Screenshot_99.png";
+  final fotoPromocionalUrl = "assets/images/tcyalll.png";
 
   const InicioView({super.key});
 
@@ -64,7 +64,7 @@ class InicioView extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Text(
                     "Bodas de Diamantes es una promoción que simboliza la fortaleza, la unión y el brillo que solo el tiempo y el trabajo en equipo pueden forjar. Integrada por cinco secciones sólidamente unidas, esta generación destaca por su talento en múltiples ámbitos: académico, artístico, deportivo y social. Más que estudiantes, son jóvenes comprometidos, creativos y decididos, que dejan huella por su compañerismo, disciplina y capacidad de sobresalir juntos. Son el reflejo de una promoción que, como el diamante, se forma bajo presión y brilla con luz propia dentro y fuera del aula. 💎✨",
-                    style: TextStyle(fontSize: 16, height: 1.5),
+                    style: TextStyle(fontSize: 16, height: 1.5, color: Colors.white70),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -80,11 +80,36 @@ class InicioView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “A”', estudiantes: estudiantesSeccionA),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “B”', estudiantes: estudiantesSeccionB),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “C”', estudiantes: estudiantesSeccionC),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “D”', estudiantes: estudiantesSeccionD),
-                  SeccionEstudiantesWidget(titulo: 'Quinto Grado “E”', estudiantes: estudiantesSeccionE),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “A”',
+                    estudiantes: estudiantesSeccionA,
+                    imageAsset: "assets/images/5toa.png",
+                    nombres: listNombresQuintoA,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “B”',
+                    estudiantes: estudiantesSeccionB,
+                    imageAsset: "assets/images/5tob.png",
+                    nombres: listNombresQuintoB,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “C”',
+                    estudiantes: estudiantesSeccionC,
+                    imageAsset: "assets/images/5toc.png",
+                    nombres: listNombresQuintoC,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “D”',
+                    estudiantes: estudiantesSeccionD,
+                    imageAsset: "assets/images/5tod.png",
+                    nombres: listNombresQuintoD,
+                  ),
+                  SeccionEstudiantesWidget(
+                    titulo: 'Quinto Grado “E”',
+                    estudiantes: estudiantesSeccionE,
+                    imageAsset: "assets/images/5toe.png",
+                    nombres: listNombresQuintoE,
+                  ),
                 ],
               ),
             ),

@@ -6,11 +6,15 @@ import 'renderizado_listas_widget.dart';
 class SeccionEstudiantesWidget extends StatelessWidget {
   final String titulo;
   final List<PerfilEstudianteEntity> estudiantes;
+  final String? imageAsset; // imagen local del aula
+  final List<String>? nombres;
 
   const SeccionEstudiantesWidget({
     super.key,
     required this.titulo,
     required this.estudiantes,
+    this.imageAsset,
+    this.nombres,
   });
 
   @override
@@ -20,18 +24,13 @@ class SeccionEstudiantesWidget extends StatelessWidget {
       child: ExpansionTile(
         title: Text(
           'Estudiantes $titulo',
-          style: const TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-          ),
+          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         collapsedBackgroundColor: Colors.white10,
         backgroundColor: Colors.transparent,
         textColor: Colors.white,
         iconColor: Colors.white,
-        children: [
-          RenderizadoListasWidget(listaEstudiantes: estudiantes),
-        ],
+        children: [RenderizadoListasWidget(listaEstudiantes: estudiantes, imageAsset: imageAsset, nombres: nombres)],
       ),
     );
   }
